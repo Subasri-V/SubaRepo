@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"log"
+)
 
 func main() {
 	fmt.Println("hello")
@@ -8,4 +11,5 @@ func main() {
 	fmt.Println("hello, this is main")
 	fmt.Println("master here")
 	fmt.Println("main here")
+	log.Println("im main")
 }
