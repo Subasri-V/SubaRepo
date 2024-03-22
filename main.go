@@ -12,4 +12,5 @@ func main() {
 	fmt.Println("master here")
 	fmt.Println("main here")
 	log.Println("im main")
+	log.Println("in master")
 }
