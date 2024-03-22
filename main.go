@@ -13,4 +13,5 @@ func main() {
 	fmt.Println("main here")
 	log.Println("im main")
 	log.Println("in master")
+	log.Println("in main without pull from master")
 }
